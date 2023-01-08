@@ -1,0 +1,532 @@
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* inter-500 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* inter-900 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/inter-v12-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* inika-regular - latin */
+@font-face {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/inika-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inika-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inika-700 - latin */
+@font-face {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inika-v21-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+/*header styles start*/
+.header{
+    width: 1440px;
+    height: 134px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    
+}
+
+.navbar{
+    width: 1221px;
+    height: 102px;
+    margin-left: 110px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item{
+    margin-right: 46px;
+    list-style-type: none;
+}
+
+.header_item:last-child{
+    margin-right: 0px;
+}
+
+.header_link{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #010201;
+    text-decoration: none;
+}
+
+.header_link_red{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #E06733;
+    text-decoration: none;
+}
+
+.header_link :hover,.header_link :focus, .header_link :active{
+    opacity: .5;
+}
+/*header styles end*/
+
+/*main welcome styles start*/
+.welcome{
+    width: 1440px;
+    height: 532px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leafs{
+    margin-left: 196px;
+    margin-top: 35px;
+    margin-bottom: 71px;
+}
+
+.home{
+    flex: 1;
+    width: 485px;
+    height: 301px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    margin-left: 222px;
+    margin-right: 98px;
+}
+    
+.home_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #717171;
+    margin-top: 46px; 
+}
+
+.learn_more{
+    list-style-type: none;
+    width: 139.61px;
+    height: 37.79px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E06733;
+    border-radius: 10px;
+    line-height: 103%;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.button_start{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0;
+    color: #000000;
+    text-decoration: none; 
+}
+/*main welcome styles end*/
+
+/*main about us styles start*/
+.about{
+    width: 1440px;
+    height: 666px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-section{
+    display: flex;
+    width: 1222px;
+    height: 479px;
+    margin-left: 109px;
+    margin-top: 93px;
+    margin-bottom: 94px;
+}
+
+.about-us_section{
+    width: 463px;
+    height: 350px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    margin-top: 68px;
+    margin-bottom: 61px;
+}
+
+.about-us_text{
+    width: 605px;
+    height: 208px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 40px;
+    color: #636060;
+}
+
+.housplant1{
+    width: 463px;
+    height: 479px;
+    margin-left: 295px;
+  }
+/*main about us styles end*/
+
+/*main service styles start*/
+.service{
+    background-color: #EDF2EC;
+    width: 1440px;
+    height: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.service-content{
+    width: 1007px;
+    height: 94px;
+    margin-left: 109px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-projects{
+    width: 306px;
+    height: 94px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52.12px;
+    color: #499A18;
+}
+
+.service-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.service_btns{
+    margin-right: 38px;
+    list-style-type: none;
+}
+
+.service_btns:last-child{
+    margin-right: 0px;
+}
+
+.service_btn{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.06px;
+    color: #E06733;
+    text-decoration: none; 
+}
+
+.service_btn{
+    width: 161px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E06733;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.services{
+    width: 1222px;
+    height: 955px;
+    margin-left: 109px;
+}
+
+.services-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_item{
+    width: 330px;
+    height: 450px;
+}
+
+.services_item2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+/*main service styles end*/
+
+/*main prices styles start*/
+.prices{
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 560px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+.prices-wrapper{
+    width: 1222px;
+    height: 405px;
+    margin-left: 109px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Prices{
+    width: 332px;
+    height: 391px;
+    display: block;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.text{
+    width: 145px;
+    height: 49px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.41px;
+    color: #000000;
+}
+
+.prices-item{
+    width: 332px;
+    height: 282px;
+    margin-top: 69px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+.Prices-items{
+    width: 250px;
+    height: 214px;
+    margin-left: 41px;
+}
+
+.Price_item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price{
+    list-style-type: none;
+}
+
+.text-call{
+    width: 452px;
+    height: 191.01px;
+    margin-left: 438px;
+    display: block;
+    justify-content: flex-end; 
+    list-style-type: none; 
+}
+
+.Leafs{
+    width: 152px;
+    height: 175px;
+    margin-left: 738px;
+}
+
+.text-call_us{
+    width: 452px;
+    height: 103px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 50px;
+    line-height: 103%;
+    color: #000000;
+    text-align: right;
+}
+
+.price_contact{
+    margin-left: 290px;
+    margin-top: 38px;
+}
+
+.btn_contact{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26.06px;
+    color: #E06733;
+    text-decoration: none; 
+}
+
+.btn_contact{
+    width: 161px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E06733;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+/*main prices styles end*/
+
+/*main contacts styles start*/
+.contacts{
+    background-color: #EDF2EC;
+    width: 1440px;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+.contacts-women{
+    width: 400px;
+    height: 497px;
+    margin-left: 109px;
+    margin-top: 53px;
+}
+
+.contact-us{
+    margin-top: 60px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52.12px;
+    text-decoration: none; 
+}
+
+.contacts-container{
+    width: 450px;
+    height: 50px;
+    margin-top: 148px;
+    margin-right: 109px;
+}
+/*main contacts styles end*/
+
+/*main footer styles start*/
+.footer{
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 130px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.content{
+    width: 1222px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.footer-data{
+    width: 182px;
+    height: 50px;
+}
+
+.rsshcool{
+    width: 211px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.social-list{
+    width: 188px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+/*main footer styles end*/
